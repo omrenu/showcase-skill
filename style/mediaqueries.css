@@ -1,0 +1,47 @@
+@media (max-width:991px){
+
+    .sidebar{
+        position: static;
+        width:100%;
+        height: auto;
+    }
+    #profile{
+        padding: 100px 15px 40px;
+    }
+    .navigation{
+        position: fixed;
+        top:0;
+        width: 100%;
+        background: black;
+    }
+    .navigation ul li{
+        display: inline-block;
+        width: 25%;
+    }
+    .navigation ul li a{
+        padding: 0px 10px;
+    }
+    ul.flexbox{
+        display: flex;
+    }
+}
+
+@media (max-width:375px){
+    #portfolio figure{
+        margin-left:0;
+        margin-right:0;
+    }
+    #portfolio figcaption{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .caption-footer{
+        margin:0px -15px;
+    }
+    #portfolio h4{
+        font-size: 14px;
+    }
+    #portfolio h6{
+        font-size: 11px;
+    }
+}
